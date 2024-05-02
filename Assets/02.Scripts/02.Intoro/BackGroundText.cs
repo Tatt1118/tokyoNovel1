@@ -16,8 +16,6 @@ public class BackGroundText : MonoBehaviour
     async void Start()
     {
         await StartTelop();
-        mainStorycs.NaninovelInitial();
-
     }
 
     private async UniTask StartTelop()

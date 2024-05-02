@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: EngineConfiguration
   m_EditorClassIdentifier: 
   GeneratedDataPath: NaninovelData
-  OverrideObjectsLayer: 0
-  ObjectsLayer: 0
+  OverrideObjectsLayer: 1
+  ObjectsLayer: 5
   AsyncExceptionLogType: 0
   TypeAssemblies:
   - Assembly-CSharp
@@ -22,9 +22,9 @@ MonoBehaviour:
   - Elringus.Naninovel.Runtime
   - Elringus.Naninovel.Editor
   InitializeOnApplicationLoad: 0
-  SceneIndependent: 0
+  SceneIndependent: 1
   ShowInitializationUI: 0
-  CustomInitializationUI: {fileID: 114943319459938548, guid: e9ed0041f835bec42864e90cb3614219, type: 3}
+  CustomInitializationUI: {fileID: 0}
   ShowTitleUI: 0
   EnableBridging: 1
   ServerPort: 41016

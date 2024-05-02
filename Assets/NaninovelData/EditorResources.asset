@@ -141,32 +141,31 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
-    - name: MainStory
+    - name: back
       pathPrefix: UI
-      guid: a4ccc892b840cbb44ab250f52819c7c4
-    - name: Background
+      guid: 2c7ae3ef138d45b4b9c85af4b1f04a96
+    - name: Girl
       pathPrefix: UI
-      guid: df6755dd7562d2840995ba20f22914f4
-    - name: Charactor
+      guid: d2cdec86514dfb449a7b36d03c4b6054
+    - name: MainUI-Cheki
       pathPrefix: UI
-      guid: b3afaeb0b7fbf994b843a5ac625a1e58
+      guid: 2cccd065119313d4e981ae2f5c610404
   - Id: Scripts
     Resources:
     - name: MainStoryTxt
       pathPrefix: Scripts
       guid: adec08b9d66cc174ea5f5371f19e6909
   - Id: Backgrounds/6dd646c1-3ac7-4a28-9254-db753e99087a
-    Resources:
-    - name: "\u8857\u4E2D\u306E\u4EA4\u5DEE\u70B9\uFF08\u591C\uFF09"
-      pathPrefix: Backgrounds/MainBackground
-      guid: 23301975c1a7d3f4ab44331524211716
-  - Id: Characters/a3afbd4b-cd2d-48e4-8fd7-f1d6b99a0220
-    Resources:
-    - name: 06_onepiece01_1nomal
-      pathPrefix: Characters/Charactar
-      guid: b2bcaac9a4d08374c94a85061d27ba13
+    Resources: []
   - Id: TextPrinters/51507aae-574d-49a8-bf2b-3d57261ca4e4
     Resources:
     - name: MainText
       pathPrefix: TextPrinters
       guid: d6c226fe7d6cb4540a72d3a032c9fcc3
+  - Id: Backgrounds/88f782bd-be8b-4b6d-90d8-437f0a3d6694
+    Resources: []
+  - Id: Characters/7b589b1f-20e0-4e37-af14-97b493cb3d9d
+    Resources:
+    - name: 
+      pathPrefix: Characters/A
+      guid: 
