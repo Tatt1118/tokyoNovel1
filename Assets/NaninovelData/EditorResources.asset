@@ -141,15 +141,18 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
-    - name: back
+    - name: MainBack
       pathPrefix: UI
-      guid: 2c7ae3ef138d45b4b9c85af4b1f04a96
+      guid: e16b03184a0126445a725f010ad8e859
+    - name: haikei
+      pathPrefix: UI
+      guid: 36eb1e0e64c7a4e43b3d24f454a29bf0
     - name: Girl
       pathPrefix: UI
-      guid: d2cdec86514dfb449a7b36d03c4b6054
-    - name: MainUI-Cheki
+      guid: 93898cd1492b4664eb1ddf0857d28b36
+    - name: ChekiFrame
       pathPrefix: UI
-      guid: 2cccd065119313d4e981ae2f5c610404
+      guid: 40ae11f605921c24da1faca03a37f566
   - Id: Scripts
     Resources:
     - name: MainStoryTxt
@@ -157,11 +160,6 @@ MonoBehaviour:
       guid: adec08b9d66cc174ea5f5371f19e6909
   - Id: Backgrounds/6dd646c1-3ac7-4a28-9254-db753e99087a
     Resources: []
-  - Id: TextPrinters/51507aae-574d-49a8-bf2b-3d57261ca4e4
-    Resources:
-    - name: MainText
-      pathPrefix: TextPrinters
-      guid: d6c226fe7d6cb4540a72d3a032c9fcc3
   - Id: Backgrounds/88f782bd-be8b-4b6d-90d8-437f0a3d6694
     Resources: []
   - Id: Characters/7b589b1f-20e0-4e37-af14-97b493cb3d9d
@@ -169,3 +167,18 @@ MonoBehaviour:
     - name: 
       pathPrefix: Characters/A
       guid: 
+  - Id: TextPrinters/8f269498-2903-4737-8e0d-2d771c8a7335
+    Resources:
+    - name: MainText
+      pathPrefix: TextPrinters
+      guid: d6c226fe7d6cb4540a72d3a032c9fcc3
+  - Id: TextPrinters/bb93422e-3d18-463b-aa34-0fe196139921
+    Resources:
+    - name: "\u4E3B\u4EBA\u516CNovel"
+      pathPrefix: TextPrinters
+      guid: 736b17a90a1b06d419aaa870c0f7d544
+  - Id: TextPrinters/cf74805c-7041-41c8-ad2a-7abed57fb922
+    Resources:
+    - name: "\u4E3B\u4EBA\u516C\u30D5\u30EC\u30FC\u30E0"
+      pathPrefix: TextPrinters
+      guid: 736b17a90a1b06d419aaa870c0f7d544
