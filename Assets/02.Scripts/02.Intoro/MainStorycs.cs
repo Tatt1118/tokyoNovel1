@@ -28,7 +28,6 @@ public class MainStorycs : MonoBehaviour
         };
         await RuntimeInitializer.InitializeAsync();
     }
-
     void Update()
     {
         if (nextFlag)

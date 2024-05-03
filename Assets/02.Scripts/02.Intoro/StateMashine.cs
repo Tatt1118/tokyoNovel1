@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
-using Unity.PlasticSCM.Editor.WebApi;
+//using Unity.PlasticSCM.Editor.WebApi;
 
 public enum State
 {
@@ -13,6 +13,6 @@ public enum State
 public enum MainScreen
 {
     CurrentPos,
-    
+
 
 }

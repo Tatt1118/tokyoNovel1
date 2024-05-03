@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 using Cysharp.Threading.Tasks;
 
 public class BackGroundText : MonoBehaviour
@@ -9,8 +10,10 @@ public class BackGroundText : MonoBehaviour
     [SerializeField] private Text telopText;
     private float telopSpeed = 0.1f;
     private float nextTextTm = 2.3f;
+    private int originalFontSize = 52;
     private int dialogueListIndex = 0;
     public Image backgroundImage;
+    public GameObject backgroundImage2;
     [SerializeField] public MainStorycs mainStorycs;
 
     async void Start()
@@ -20,12 +23,19 @@ public class BackGroundText : MonoBehaviour
 
     private async UniTask StartTelop()
     {
+
         while (dialogueListIndex < text.novel.Count)
         {
             string currentDialogue = text.novel[dialogueListIndex];
             await DisplayText(currentDialogue);
             await UniTask.Delay((int)(nextTextTm * 1000));
             dialogueListIndex++;
+
+            // if (dialogueListIndex == 1) // 13番目の場合
+            // {
+            //     OnAllTextDisplayed();
+            // }
+
         }
 
         // 背景画像のフェードアウトとテキストのフェードインを同時に実行する

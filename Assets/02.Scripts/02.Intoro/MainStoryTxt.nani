@@ -1,3 +1,71 @@
-jijijijiii
+不思議な少女が立ってた。
+その瞳は、深淵のような底なしの闇を思わせる。
+どこか遠い世界に引き込まれそうな感覚があった。
+我に返った僕は、彼女に反応した。
 @showUI Girl
+@showUI syuzinkouName
+「じ、自分ですか？？」
+@hideUI syuzinkouName
+@showUI nazoName
+「そう。」
+@hideUI nazoName
+@showUI syuzinkouName
+「なにか用ですか？」
+@hideUI syuzinkouName
+@showUI nazoName
+「今週末の二日間だけ一緒にいてもいい？」
+@hideUI nazoName
+@showUI syuzinkouName
+理解するのに時間がかかった。
+「え？なんで？」
+@hideUI syuzinkouName
+@showUI nazoName
+「答えられない。」
+@hideUI nazoName
+@showUI syuzinkouName
+何言ってるんだこの少女。
+それ以上に疲れていたし
+なにもかもどうでもいいと思ったから承諾した。
+「いいよ、」
+@hideUI syuzinkouName
+@showUI nazoName
+「ありがと。日曜には帰るから」
+@hideUI nazoName
+@showUI syuzinkouName
+「わかった」
+@hideUI syuzinkouName
+@showUI nazoName
+「土日はどこかにでかけたい。なにか予定ある？」
+@hideUI nazoName
+@showUI syuzinkouName
+「なにもないけど」
+週末にどこかにでかけるのなんていつぶりだ？
+もう寝て起きたら日曜が終わってることが大半なのに
+「それより、名前は？」
+@hideUI syuzinkouName
+@showUI nazoName
+「めあ。月夜めあ」
+「名前教えて」
+@hideUI nazoName
+@showUI syuzinkouName
+「霜月繕」
+@hideUI syuzinkouName
+@showUI nazoName
+「ぜん。よろしくね」
+@hideUI nazoName
+@showUI syuzinkouName
+「よろしく。」
+もう寝たい。この少女がなんであれ、もうなるようになれ
+
+@hideUI Girl
+@showUI GirlHyouzyou
+「遊んでくれてありがとう。」
+「今日はこれで終わり」
+「こんな雰囲気で進んでいくよ」
+「繕の感情を取り戻すためにいろんな場所に行って」
+「いろんな写真を撮って」
+「元気になってもらいたの」
+「また機会があったらよろしくね。」
+
+
 @stop
