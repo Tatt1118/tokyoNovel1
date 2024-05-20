@@ -32,6 +32,11 @@
         &lt;Appearances /&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
+        &lt;Id&gt;MainText&lt;/Id&gt;
+        &lt;Type&gt;TextPrinters&lt;/Type&gt;
+        &lt;Appearances /&gt;
+      &lt;/Actor&gt;
+      &lt;Actor&gt;
         &lt;Id&gt;Dialogue&lt;/Id&gt;
         &lt;Type&gt;TextPrinters&lt;/Type&gt;
         &lt;Appearances /&gt;
@@ -48,11 +53,6 @@
       &lt;/Actor&gt;
       &lt;Actor&gt;
         &lt;Id&gt;Chat&lt;/Id&gt;
-        &lt;Type&gt;TextPrinters&lt;/Type&gt;
-        &lt;Appearances /&gt;
-      &lt;/Actor&gt;
-      &lt;Actor&gt;
-        &lt;Id&gt;MainText&lt;/Id&gt;
         &lt;Type&gt;TextPrinters&lt;/Type&gt;
         &lt;Appearances /&gt;
       &lt;/Actor&gt;
@@ -225,6 +225,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;nazoName&lt;/Path&gt;
+        &lt;Type&gt;UI&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;GirlHyouzyou&lt;/Path&gt;
         &lt;Type&gt;UI&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
