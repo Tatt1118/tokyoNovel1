@@ -763,6 +763,34 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5144200169655333587, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 307.7053
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144200169655333587, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 115.1952
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144200169655333587, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9999687
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144200169655333587, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.007910347
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144200169655333587, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144200169655333587, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144200169655333587, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.906
+      objectReference: {fileID: 0}
     - target: {fileID: 6187517398503909319, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
       propertyPath: m_Name
       value: "\u7A7A\u60F3"
@@ -855,6 +883,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2133996717}
+    - target: {fileID: 8734232061029746135, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8734232061029746135, guid: 8f3c0eaae279c7143958c93bce2bf53d, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
