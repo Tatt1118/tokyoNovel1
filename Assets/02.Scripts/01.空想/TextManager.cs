@@ -12,9 +12,8 @@ public class TextManager : MonoBehaviour
     private float telopSpeed = 0.1f;
     private int dialogueListIndex = 0;
     private float nextTextTm = 1f;
-    public GameObject ttt;
-    public GameObject ttt1;
-    public GameObject ttt2;
+    public int moveSpeed=0;
+    
 
     async void Start()
     {

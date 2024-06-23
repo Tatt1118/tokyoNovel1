@@ -11,12 +11,13 @@ public class 音ゲー : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = transform.down.normalized * -speed;
+        rb.velocity = transform.up.normalized * speed;
 
     }
+
+    //キャラクターから弾が発射されて、指定座標に向かって飛ぶように設定
     void Update()
     {
-
         if (Input.GetMouseButtonDown(0))
         {
             OnShot();
