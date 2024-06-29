@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1808450129563924913}
   - component: {fileID: 4927113151726711729}
   - component: {fileID: 5421461905336290057}
+  - component: {fileID: 3842943869639694047}
   m_Layer: 0
   m_Name: Hexagon Flat-Top
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 35285222783433608}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2479, y: -1.0922, z: 0}
+  m_LocalPosition: {x: 0.2479, y: 0.90779996, z: 0}
   m_LocalScale: {x: 0.4312, y: 0.4478, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -112,3 +113,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3842943869639694047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35285222783433608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6416c9bfe2eae4b47a1abe24c52ee802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5.27

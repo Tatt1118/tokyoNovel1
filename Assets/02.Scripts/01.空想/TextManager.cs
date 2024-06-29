@@ -12,8 +12,8 @@ public class TextManager : MonoBehaviour
     private float telopSpeed = 0.1f;
     private int dialogueListIndex = 0;
     private float nextTextTm = 1f;
-    public int moveSpeed=0;
-    
+    public int moveSpeed = 0;
+
 
     async void Start()
     {
@@ -55,9 +55,7 @@ public class TextManager : MonoBehaviour
     private void OnAllTextDisplayed()
     {
         //SceneManager.LoadScene("Intoro");
-        ttt.SetActive(true);
-        ttt1.SetActive(true);
-        ttt2.SetActive(false);
+
         Debug.Log("すべてのテキストが表示されました。");
     }
 }
