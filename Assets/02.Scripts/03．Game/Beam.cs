@@ -4,25 +4,21 @@ using UnityEngine;
 
 
 /// <summary>
-///
+///Beam管理
 /// </summary>
 public class Beam : MonoBehaviour
 {
-    [SerializeField, Header("弾の速度")]
-    private float speed;
-
     private float dx;
     private float dy;
 
-    void Start()
+    void Update()
     {
+        transform.position += new Vector3(dx, dy, 0) * Time.deltaTime;
     }
 
-
-    public void Setting()
+    public void Setting(Vector3 pos, float speed)
     {
-
-        transform.position += new Vector3(0, 1.0f, 0);
-
+        dx = pos.x * speed;
+        dy = pos.y * speed;
     }
 }

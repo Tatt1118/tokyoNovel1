@@ -7,7 +7,9 @@ using System.Linq;
 public enum State
 {
     Intro,
-    MainStory
+    MainStory,
+    GameeSecene
+
 }
 
 public enum MainScreen

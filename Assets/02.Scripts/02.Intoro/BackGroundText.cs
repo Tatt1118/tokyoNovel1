@@ -26,6 +26,10 @@ public class BackGroundText : MonoBehaviour
         Debug.Log("すべてのテキストが表示されました。");
     }
 
+
+/// <summary>
+/// テキスト表示されたときの処理
+/// </summary>
     public void TextDisplay()
     {
         if (DOTween.IsTweening(telopText)) //IsTweening（）便利　dotweenが動いてるか判定してくれる
