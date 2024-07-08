@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] Beam beamPrefb;
+    //[SerializeField] Beam beamPrefb;
     [SerializeField] GameObject moonPos;
     [SerializeField] GameObject beamPos;
+    [SerializeField] ObejectPool obejectPool;
+
+
+    void Awake()
+    {
+        obejectPool.CreatePool(10);
+
+    }
 
     void Start()
     {
@@ -16,8 +24,9 @@ public class Player : MonoBehaviour
     public void GoBeam(Vector3 pos, float speed)
     {
 
-        Beam beam = Instantiate(beamPrefb, beamPos.transform.position, transform.rotation);
-        beam.Setting(pos, speed);
+        //Beam beam = Instantiate(beamPrefb, beamPos.transform.position, transform.rotation);
+        obejectPool.GetObj(pos);
+        //beam.Setting(pos, speed);
 
     }
 
