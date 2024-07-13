@@ -1,14 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Transactions;
 using UnityEngine;
 
 /// <summary>
-/// Beamã®é€²ã‚€æ–¹å‘ã¨é€Ÿåº¦èª¿æ•´ã€ãƒ—ãƒ¬ãƒãƒ–ã®è¨­å®š
+/// Beam‚Ì”»’èAŠÇ—‚·‚éƒXƒNƒŠƒvƒg
 /// </summary> <summary>
 ///
 /// </summary>
 public class BeamManager : MonoBehaviour
 {
 
+    private float dx;
+    private float dy;
+    private float speed = 0.5f;
+
+    void Update()
+    {
+        transform.position += new Vector3(dx, dy, 0) * Time.deltaTime;
+    }
+
+    public void BeamPos(Vector3 beamPos)
+    {
+
+        dx = beamPos.x;
+        dy = beamPos.y;
+
+    }
+
 
 }
+
